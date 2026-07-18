@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.stackuplearning.com)",
+      "Bash(npm install *)"
+    ]
+  }
+}
