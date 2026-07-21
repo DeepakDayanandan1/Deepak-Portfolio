@@ -86,7 +86,7 @@ export const portfolioData = {
         image: "/projectimg/Portfolio.png",
         link: "/projects/2",
         color: "#ff4d00",
-        demoUrl: "https://deepakdesigns.vercel.app",
+        demoUrl: "https://deepakbuilds.vercel.app",
         githubUrl: "https://github.com/DeepakDayanandan1/Portfolio",
         features: [
           {
