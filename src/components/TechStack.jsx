@@ -30,13 +30,13 @@ export default function TechStack() {
         <div className="animate-marquee-reverse marquee-track">
           {Array.from({ length: 16 }).map((_, i) => (
             <span key={i} className="mx-6 text-xs font-mono uppercase tracking-[0.3em] text-text-dim whitespace-nowrap">
-              Tools & Technologies
+              Let's Connect
             </span>
           ))}
         </div>
       </div>
 
-      <div className="section">
+      {/* <div className="section">
         <ScrollReveal>
           <div className="mb-16 text-center">
             <span className="section-label justify-center">
@@ -60,7 +60,7 @@ export default function TechStack() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

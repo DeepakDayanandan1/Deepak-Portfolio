@@ -71,49 +71,7 @@ export const portfolioData = {
 },
     
     {
-        number: "02",
-        title: "Portfolio",
-        category: "Frontend",
-        description:
-          "A modern developer portfolio built with Next.js and Tailwind CSS, featuring responsive design, custom animations, and an interactive user experience.",
-        tags: [
-          "Next.js",
-          "React",
-          "Tailwind CSS",
-          "JavaScript",
-          "UI/UX"
-        ],
-        image: "/projectimg/Portfolio.png",
-        link: "/projects/2",
-        color: "#ff4d00",
-        demoUrl: "https://deepakbuilds.vercel.app",
-        githubUrl: "https://github.com/DeepakDayanandan1/Portfolio",
-        features: [
-          {
-            title: "Modern Responsive Design",
-            description:
-              "Brutalist-inspired UI with a fully responsive layout, dark theme, and seamless experience across devices."
-          },
-          {
-            title: "Interactive Experience",
-            description:
-              "Features custom cursor effects, scroll reveal animations, marquee banners, and cinematic film grain for engaging interactions."
-          },
-          {
-            title: "Reusable Architecture",
-            description:
-              "Built with reusable React components and centralized content management for easy customization and scalability."
-          },
-          {
-            title: "Performance Optimized",
-            description:
-              "Developed using Next.js App Router with optimized fonts, minimal dependencies, and fast deployment on Vercel."
-          }
-        ]
-      },
-    
-    {
-  number: "03",
+  number: "02",
   title: "VisionGuard-AI",
   category: "AI / Deep Learning",
   description:
@@ -127,7 +85,7 @@ export const portfolioData = {
     "Deep Learning"
   ],
   image: "/projectimg/VisionGuard.png",
-  link: "/projects/3",
+  link: "/projects/2",
   color: "#00b894",
   demoUrl: "https://huggingface.co/spaces/bidhunb/cataract_detection",
   githubUrl: "https://github.com/DeepakDayanandan1/cataract-new",
@@ -155,6 +113,46 @@ export const portfolioData = {
   ]
 },
     {
+        number: "03",
+        title: "Portfolio",
+        category: "Frontend",
+        description:
+          "A modern developer portfolio built with Next.js and Tailwind CSS, featuring responsive design, custom animations, and an interactive user experience.",
+        tags: [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "UI/UX"
+        ],
+        image: "/projectimg/Portfolio.png",
+        link: "/projects/3",
+        color: "#ff4d00",
+        demoUrl: "https://deepakbuilds.vercel.app",
+        githubUrl: "https://github.com/DeepakDayanandan1/Portfolio",
+        features: [
+          {
+            title: "Modern Responsive Design",
+            description:
+              "Brutalist-inspired UI with a fully responsive layout, dark theme, and seamless experience across devices."
+          },
+          {
+            title: "Interactive Experience",
+            description:
+              "Features custom cursor effects, scroll reveal animations, marquee banners, and cinematic film grain for engaging interactions."
+          },
+          {
+            title: "Reusable Architecture",
+            description:
+              "Built with reusable React components and centralized content management for easy customization and scalability."
+          },
+          {
+            title: "Performance Optimized",
+            description:
+              "Developed using Next.js App Router with optimized fonts, minimal dependencies, and fast deployment on Vercel."
+          }
+        ]
+      },
+    {
       number: "04",
       title: "Sales Forecasting",
       category: "Full Stack",
@@ -163,7 +161,7 @@ export const portfolioData = {
       image: "/projectimg/SalesForecast.png",
       link: "/projects/4",
       color: "#84cc16",
-      demoUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7379503792054194176/",
+      demoUrl: "https://sales-forecasting-gwnt93bzk2d4jzs3xecbzz.streamlit.app/",
       githubUrl: "https://github.com/DeepakDayanandan1/Sales-Forecasting",
       features: [
         { title: "ML-Powered Sales Prediction", description: "Utilizes machine learning algorithms to forecast future sales trends with precision and reliability." },
@@ -205,7 +203,7 @@ export const portfolioData = {
 
   marqueeWords: [
     "UI/UX DESIGN", "FRONTEND DEV", "NEXT.JS", "FIGMA",
-    "PROTOTYPING", "DESIGN SYSTEMS", "TAILWIND", "TYPESCRIPT",
-    "REACT", "ACCESSIBILITY", "USER RESEARCH", "INTERACTION DESIGN",
+    "PROTOTYPING", "DESIGN SYSTEMS", "TAILWIND", "PYTHON",
+    "REACT", "MACHINE LEARNING",
   ],
 };
