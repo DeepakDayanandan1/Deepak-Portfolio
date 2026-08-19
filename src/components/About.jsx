@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { portfolioData } from '@/data/content';
 import ScrollReveal from './ScrollReveal';
 
@@ -73,7 +74,7 @@ export default function About() {
           {/* Right — Stats + quick info */}
           <div className="lg:col-span-5">
             <ScrollReveal direction="right" delay={200}>
-              <div className="border-2 border-border p-8 space-y-0">
+              {/* <div className="border-2 border-border p-8 space-y-0">
                 {portfolioData.stats.map((stat, i) => (
                   <div key={stat.label} className={`flex items-center justify-between py-5 ${
                     i < portfolioData.stats.length - 1 ? 'border-b border-border' : ''
@@ -82,6 +83,17 @@ export default function About() {
                     <span className="text-2xl font-bold text-accent">{stat.value}</span>
                   </div>
                 ))}
+              </div> */}
+              {/* Image box - full height */}
+              <div className="relative border-2 border-border overflow-hidden aspect-square w-full">
+                <Image
+                  src="/picture.jpg"
+                  alt="Deepak Dayanandan"
+                  width={1280}
+                  height={1280}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
 
               {/* Location pill */}
