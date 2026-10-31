@@ -68,8 +68,7 @@ export const portfolioData = {
         "Enhance resume content with AI-generated bullet point rewrites, keyword optimization, and prioritized suggestions to improve interview readiness."
     }
   ]
-},
-    
+  },   
     {
   number: "02",
   title: "VisionGuard-AI",
@@ -112,8 +111,55 @@ export const portfolioData = {
     }
   ]
 },
+  {
+  number: "03",
+  title: "Wayfarer",
+  category: "Full Stack",
+  description:
+    "A comprehensive tourism management platform built with PHP, MySQL, and Bootstrap, featuring tour package discovery, online booking management, traveler accounts, and an administrative dashboard for managing travel operations.",
+  tags: [
+    "PHP",
+    "MySQL",
+    "Bootstrap",
+    "JavaScript",
+    "jQuery",
+    "PDO"
+  ],
+  image: "/projectimg/Wayfarer.png",
+  link: "/projects/3",
+  color: "#0D9488",
+  demoUrl: "https://wayfarer.freedev.app",
+  githubUrl: "https://github.com/DeepakDayanandan1/Wayfarer-Tourism-Management-System",
+  features: [
     {
-        number: "03",
+      title: "Tour Package Management",
+      description:
+        "Browse categorized travel packages with detailed itineraries, destination information, pricing, package highlights, and image galleries."
+    },
+    {
+      title: "Booking & Reservation System",
+      description:
+        "Allows travelers to book tour packages, select departure and return dates, submit special requests, and track booking status with cancellation options."
+    },
+    {
+      title: "Admin Dashboard & Analytics",
+      description:
+        "Provides a centralized administrative dashboard to manage travelers, tour packages, bookings, customer inquiries, and support tickets with real-time statistics."
+    },
+    {
+      title: "User Authentication & Support",
+      description:
+        "Includes traveler registration, login, profile management, password recovery, and an integrated support ticket system for tracking customer issues and admin responses."
+    },
+    {
+      title: "Content Management System",
+      description:
+        "Features an admin-managed CMS for updating website pages, including About Us, Terms and Conditions, Privacy Policy, and Contact Information."
+    }
+  ]
+},
+    {
+        number: "04",
         title: "Portfolio",
         category: "Frontend",
         description:
@@ -125,7 +171,7 @@ export const portfolioData = {
           "UI/UX"
         ],
         image: "/projectimg/Portfolio.png",
-        link: "/projects/3",
+        link: "/projects/4",
         color: "#ff4d00",
         demoUrl: "https://deepakbuilds.vercel.app",
         githubUrl: "https://github.com/DeepakDayanandan1/Portfolio",
@@ -153,13 +199,13 @@ export const portfolioData = {
         ]
       },
     {
-      number: "04",
+      number: "05",
       title: "Sales Forecasting",
       category: "Full Stack",
       description: "Developed a sales forecasting system using machine learning algorithms to predict future sales trends based on historical data.",
       tags: ["Python", "ML", "Full Stack", "Data Science"],
       image: "/projectimg/SalesForecast.png",
-      link: "/projects/4",
+      link: "/projects/5",
       color: "#84cc16",
       demoUrl: "https://sales-forecasting-gwnt93bzk2d4jzs3xecbzz.streamlit.app/",
       githubUrl: "https://github.com/DeepakDayanandan1/Sales-Forecasting",
