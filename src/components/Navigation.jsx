@@ -24,7 +24,7 @@ export default function Navigation() {
   const links = [
     { label: 'PROJECTS', href: '#projects' },
     { label: 'ABOUT', href: '#about' },
-    { label: 'SERVICES', href: '#services' },
+    { label: 'SKILLS', href: '#skills' },
     { label: 'CONTACT', href: '#contact' },
   ];
 

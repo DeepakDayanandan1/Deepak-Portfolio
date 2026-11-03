@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import CustomCursor from '@/components/CustomCursor';
 
 export const metadata = {
+  metadataBase: new URL('https://deepakdesigns.vercel.app'),
   title: "Deepak. — Portfolio",
   description:
     "Explore the portfolio of Deepak Dayanandan, showcasing modern web applications, AI-powered projects, and user-centric digital experiences.",

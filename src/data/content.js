@@ -5,7 +5,7 @@ export const portfolioData = {
   role: "CS Graduate · Designer · Developer",
   tagline: "Crafting Bold Digital Experiences",
   bio: "Computer Science and Engineering graduate passionate about building innovative web applications and AI-powered solutions. Focused on creating intuitive user experiences and developing scalable software for real-world impact.",
-  longBio: "From crafting user interfaces in Figma to developing full-stack applications with Next.js and Python, I enjoy transforming ideas into polished digital products. I'm seeking opportunities to contribute to teams that value innovation, user-centric design, and high-quality engineering.",
+  longBio: "From crafting user interfaces in Figma to developing full-stack applications with React.js and Python, I enjoy transforming ideas into polished digital products. I'm seeking opportunities to contribute to teams that value innovation, user-centric design, and high-quality engineering.",
   location: "Alappuzha, Kerala",
   college: "Carmel College of Engineering & Technology (KTU)",
   school: "Lourdes Matha Higher Secondary School",
@@ -217,6 +217,108 @@ export const portfolioData = {
     },
   ],
 
+  // Tech Stack & Skills Data
+  skillsData: {
+    badge: "TOOLBOX // TECH STACK",
+    heading: "Systems, Stack",
+    headingHighlight: "& Tools",
+    subtitle:
+      "A focused breakdown of the programming languages, modern frameworks, database systems, and developer tools I build with.",
+    snippet: {
+      comment: "# Deepak Dayanandan — Developer & Designer",
+      fn: "def build():",
+      body: 'ideas = ["solve", "build", "scale", "innovate"]',
+      ret: 'return "always curious & building"',
+    },
+    categories: [
+      {
+        id: "frontend",
+        number: "01",
+        label: "01 // FRONTEND & UI/UX",
+        title: "Frontend & UI/UX Design",
+        skills: [
+          "React.js",
+          "Next.js",
+          "Tailwind CSS",
+          "Bootstrap",
+          "HTML5 & CSS3",
+          "jQuery",
+          "Figma",
+          "Design Systems",
+        ],
+        appliedProjects: [
+          { name: "Drafted", link: "/projects/1" },
+          { name: "Wayfarer", link: "/projects/3" },
+          { name: "Portfolio", link: "/projects/4" },
+        ],
+      },
+      {
+        id: "backend",
+        number: "02",
+        label: "02 // BACKEND & DATABASES",
+        title: "Backend & Databases",
+        skills: [
+          "FastAPI",
+          "Flask",
+          "PHP",
+          "MySQL",
+          "Supabase",
+          "RESTful APIs",
+          "Postman",
+          "PDO",
+        ],
+        appliedProjects: [
+          { name: "Drafted", link: "/projects/1" },
+          { name: "Wayfarer", link: "/projects/3" },
+        ],
+      },
+      {
+        id: "languages",
+        number: "03",
+        label: "03 // LANGUAGES & CS CORE",
+        title: "Languages & Core CS",
+        skills: [
+          "Python",
+          "JavaScript",
+          "TypeScript",
+          "C",
+          "Java",
+          "SQL",
+          "Data Structures",
+          "OOP Architecture",
+        ],
+        appliedProjects: [
+          { name: "Drafted", link: "/projects/1" },
+          { name: "Wayfarer", link: "/projects/3" },
+          { name: "VisionGuard-AI", link: "/projects/2" },
+          { name: "Sales Forecasting", link: "/projects/5" },
+        ],
+      },
+      {
+        id: "toolkit",
+        number: "04",
+        label: "04 // WORKFLOW & LIBRARIES",
+        title: "Tools & Libraries",
+        skills: [
+          "Git & GitHub",
+          "VS Code",
+          "Vercel",
+          "Streamlit",
+          "Pandas & NumPy",
+          "PyTorch",
+          "OpenCV",
+        ],
+        appliedProjects: [
+          { name: "Drafted", link: "/projects/1" },
+          { name: "VisionGuard-AI", link: "/projects/2" },
+          { name: "Sales Forecasting", link: "/projects/5" },
+          { name: "Portfolio", link: "/projects/4" },
+        ],
+      },
+    ],
+  },
+
+  // Legacy services alias maintained for backwards compatibility
   services: [
     {
       number: "01",

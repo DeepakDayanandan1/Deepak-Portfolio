@@ -16,8 +16,8 @@ export default function ProjectDetail() {
   }, []);
 
   // Find the project based on number matching format "0X"
-  const projectNumber = id.padStart(2, '0');
-  const project = portfolioData.projects.find((p) => p.number === projectNumber);
+  const projectNumber = id ? String(id).padStart(2, '0') : '';
+  const project = projectNumber ? portfolioData.projects.find((p) => p.number === projectNumber) : null;
 
   if (!project) {
     return (

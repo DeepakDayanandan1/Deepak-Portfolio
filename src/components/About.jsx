@@ -18,7 +18,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="section">
+      <div className="section !pb-12 sm:!pb-16 md:!pb-20">
         <div className="grid gap-16 lg:grid-cols-12 lg:gap-12">
           {/* Left — Large intro text */}
           <div className="lg:col-span-7">
@@ -63,6 +63,7 @@ export default function About() {
                     <div>
                       <div className="text-sm font-bold text-text-primary">{portfolioData.school}</div>
                       <div className="text-xs font-mono text-text-dim uppercase tracking-wider">Higher Secondary Education</div>
+                    <div className="text-xs font-mono text-text-dim uppercase tracking-wider">Percentage: 93.6%</div>
                     </div>
                   </div>
                 )}
