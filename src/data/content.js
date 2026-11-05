@@ -11,13 +11,11 @@ export const portfolioData = {
   school: "Lourdes Matha Higher Secondary School",
   email: "deepakdayanandan008@gmail.com",
   resumeUrl: "/Deepak Dayanandan-Resume.pdf",
-  existingPortfolio: "https://deepakdesigns.vercel.app",
 
   socials: {
     github: "https://github.com/deepakdayanandan1",
-    linkedin: "https://www.linkedin.com/in/deepak-dayanandan/",
-    //dribbble: "https://dribbble.com/deepakdayanandan",
-    instagram: "https://www.instagram.com/deep.4k__",
+    linkedin: "https://www.linkedin.com/in/deepak-dayanandan",
+    instagram: "https://www.instagram.com/dee.p.ak__",
   },
 
   stats: [
@@ -240,11 +238,8 @@ export const portfolioData = {
           "React.js",
           "Next.js",
           "Tailwind CSS",
-          "Bootstrap",
-          "HTML5 & CSS3",
-          "jQuery",
+          "HTML & CSS",
           "Figma",
-          "Design Systems",
         ],
         appliedProjects: [
           { name: "Drafted", link: "/projects/1" },
@@ -265,7 +260,6 @@ export const portfolioData = {
           "Supabase",
           "RESTful APIs",
           "Postman",
-          "PDO",
         ],
         appliedProjects: [
           { name: "Drafted", link: "/projects/1" },
@@ -280,7 +274,6 @@ export const portfolioData = {
         skills: [
           "Python",
           "JavaScript",
-          "TypeScript",
           "C",
           "Java",
           "SQL",
