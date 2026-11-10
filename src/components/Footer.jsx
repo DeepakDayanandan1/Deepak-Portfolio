@@ -50,7 +50,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="border-t-2 border-border bg-bg">
+    <footer className="border-t-2 border-border bg-bg w-full max-w-full overflow-hidden">
       {/* Main footer area — DEEPAK watermark + social grid */}
       <div className="overflow-hidden">
         <div className="mx-auto max-w-7xl px-6 sm:px-8">

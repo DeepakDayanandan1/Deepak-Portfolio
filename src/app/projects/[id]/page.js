@@ -31,7 +31,7 @@ export default function ProjectDetail() {
   }
 
   return (
-    <section className="relative min-h-screen pt-32 pb-24 overflow-hidden bg-bg">
+    <section className="relative min-h-screen pt-28 sm:pt-32 pb-20 sm:pb-24 overflow-hidden w-full max-w-full bg-bg">
       {/* Decorative background grid */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{
         backgroundImage: `linear-gradient(var(--text-primary) 1px, transparent 1px),

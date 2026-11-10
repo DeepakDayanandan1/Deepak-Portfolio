@@ -10,19 +10,35 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const name = formData.name.trim();
+    const email = formData.email.trim();
+    const message = formData.message.trim();
+
+    if (!name || !email || !message) {
+      setStatus('error');
+      setTimeout(() => setStatus('idle'), 3000);
+      return;
+    }
+
     setStatus('sending');
 
     try {
+      const accessKey =
+        process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ||
+        'afead96a-4638-45f7-9411-7b7816713da6';
+
       const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          access_key: 'afead96a-4638-45f7-9411-7b7816713da6',
-          name: formData.name,
-          email: formData.email,
-          message: formData.message,
-          subject: `Portfolio Contact from ${formData.name}`,
+          access_key: accessKey,
+          name,
+          email,
+          message,
+          subject: `Portfolio Contact from ${name}`,
           from_name: 'Portfolio Website',
+          botcheck: '',
         }),
       });
 
@@ -102,6 +118,9 @@ export default function Contact() {
         <ScrollReveal direction="right" delay={200}>
           <form onSubmit={handleSubmit} className="border-2 border-border bg-bg-surface p-6 sm:p-8 md:p-10">
             <h3 className="mb-8 text-xl font-bold text-text-primary">Send a Message</h3>
+
+            {/* Honeypot field for bot spam prevention */}
+            <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
 
             <div className="space-y-5">
               <div>

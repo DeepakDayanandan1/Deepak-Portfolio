@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
       <body className="grain">
         <CustomCursor />
         <Navigation />
-        <main>{children}</main>
+        <main className="w-full max-w-full overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>

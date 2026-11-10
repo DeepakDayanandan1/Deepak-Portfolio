@@ -6,9 +6,9 @@ import ScrollReveal from './ScrollReveal';
 
 export default function About() {
   return (
-    <section id="about" className="relative overflow-hidden">
+    <section id="about" className="relative overflow-hidden w-full max-w-full">
       {/* Full-width accent stripe */}
-      <div className="bg-accent py-4">
+      <div className="bg-accent py-4 overflow-hidden w-full max-w-full">
         <div className="animate-marquee-reverse marquee-track">
           {Array.from({ length: 12 }).map((_, i) => (
             <span key={i} className="mx-8 text-sm font-bold uppercase tracking-[0.3em] text-bg whitespace-nowrap">

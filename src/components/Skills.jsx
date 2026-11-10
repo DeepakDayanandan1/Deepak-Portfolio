@@ -22,13 +22,13 @@ export default function Skills() {
   const categories = skillsData.categories || [];
 
   return (
-    <section id="skills" className="mx-auto w-full max-w-7xl px-6 pt-8 pb-20 sm:px-8 sm:pt-10 sm:pb-24 md:pt-12 md:pb-28 relative overflow-hidden">
+    <section id="skills" className="mx-auto w-full max-w-7xl px-4 sm:px-6 md:px-8 pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 relative overflow-hidden bg-bg">
       {/* Backward-compatibility anchor for #services */}
       <span id="services" className="sr-only" />
 
       {/* Decorative background grid element */}
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.03]"
+        className="pointer-events-none absolute inset-0 opacity-[0.035]"
         style={{
           backgroundImage: `linear-gradient(var(--text-primary) 1px, transparent 1px),
                             linear-gradient(90deg, var(--text-primary) 1px, transparent 1px)`,
@@ -38,50 +38,52 @@ export default function Skills() {
 
       {/* Section Header */}
       <ScrollReveal>
-        <div className="mb-8 sm:mb-10">
+        <div className="mb-8 sm:mb-10 max-w-full overflow-hidden">
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <span className="section-label !mb-3">
+              <span className="section-label !mb-2.5 sm:!mb-3">
                 <span className="text-accent">✦</span>
                 {skillsData.badge}
                 <span className="text-accent">✦</span>
               </span>
-              <h2 className="text-3xl font-bold tracking-tight text-text-primary sm:text-5xl md:text-6xl">
+              <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-text-primary">
                 {skillsData.heading}{' '}
                 <span className="text-outline-accent">{skillsData.headingHighlight}</span>
               </h2>
             </div>
 
-            <p className="max-w-md text-sm leading-relaxed text-text-muted md:text-right">
+            <p className="max-w-md text-xs sm:text-sm leading-relaxed text-text-muted md:text-right">
               {skillsData.subtitle}
             </p>
           </div>
 
           {/* Interactive Code / Terminal Block — preserved exactly as requested */}
           {skillsData.snippet && (
-            <div className="mt-6 sm:mt-8 border-2 border-border bg-bg-surface p-4 font-mono sm:p-6">
-              <div className="mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-border/80 pb-3">
+            <div className="mt-5 sm:mt-7 border-2 border-border bg-bg-surface p-3.5 sm:p-5 md:p-6 font-mono overflow-x-auto max-w-full">
+              <div className="mb-3.5 sm:mb-4 flex flex-wrap items-center justify-between gap-2 border-b border-border/80 pb-2.5 sm:pb-3">
                 <div className="flex items-center gap-2">
                   <span className="h-2.5 w-2.5 rounded-full bg-accent" />
                   <span className="h-2.5 w-2.5 rounded-full bg-neon-yellow/70" />
                   <span className="h-2.5 w-2.5 rounded-full bg-neon-lime/70" />
-                  <span className="ml-2 text-xs text-text-dim">stack.py</span>
+                  <span className="ml-1.5 text-[11px] sm:text-xs text-text-dim">stack.py</span>
                 </div>
-                <div className="flex items-center gap-2 text-[11px] text-text-dim uppercase tracking-widest">
+                <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] text-text-dim uppercase tracking-widest">
                   <span className="h-1.5 w-1.5 rounded-full bg-neon-lime animate-pulse" />
-                  <span>ACTIVE // 10+ TECHNOLOGIES</span>
+                  <span>ACTIVE // 25+ TECHNOLOGIES</span>
                 </div>
               </div>
 
-              <div className="space-y-1 text-xs sm:text-sm">
-                <div className="text-text-dim">{skillsData.snippet.comment}</div>
+              <div className="space-y-1 text-[11px] sm:text-xs md:text-sm overflow-x-auto max-w-full">
+                <div className="text-text-dim break-all sm:break-normal">
+                  {skillsData.snippet.comment}
+                </div>
                 <div>
                   <span className="text-accent font-semibold">{skillsData.snippet.fn}</span>
                 </div>
-                <div className="pl-4 sm:pl-6 text-text-muted">
+                <div className="pl-3 sm:pl-6 text-text-muted break-all sm:break-normal">
                   {skillsData.snippet.body}
                 </div>
-                <div className="pl-4 sm:pl-6">
+                <div className="pl-3 sm:pl-6">
                   <span className="text-neon-lime">{skillsData.snippet.ret}</span>
                 </div>
               </div>

@@ -24,9 +24,9 @@ export default function TechStack() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden w-full max-w-full">
       {/* Accent divider */}
-      <div className="border-y-2 border-text-primary/10 bg-bg-surface py-4">
+      <div className="border-y-2 border-text-primary/10 bg-bg-surface py-4 overflow-hidden w-full max-w-full">
         <div className="animate-marquee-reverse marquee-track">
           {Array.from({ length: 16 }).map((_, i) => (
             <span key={i} className="mx-6 text-xs font-mono uppercase tracking-[0.3em] text-text-dim whitespace-nowrap">
