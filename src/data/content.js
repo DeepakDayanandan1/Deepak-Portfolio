@@ -114,14 +114,14 @@ export const portfolioData = {
   title: "Wayfarer",
   category: "Full Stack",
   description:
-    "A comprehensive tourism management platform built with PHP, MySQL, and Bootstrap, featuring tour package discovery, online booking management, traveler accounts, and an administrative dashboard for managing travel operations.",
+    "A full-stack tourism management platform built with Laravel 13 and MySQL, featuring tour package discovery, traveler authentication, online booking management, booking history, and an administrative dashboard for managing travel operations, customer inquiries, and support tickets.",
   tags: [
     "PHP",
+    "Laravel 13",
     "MySQL",
-    "Bootstrap",
     "JavaScript",
-    "jQuery",
-    "PDO"
+    "Bootstrap",
+    "Blade"
   ],
   image: "/projectimg/Wayfarer.png",
   link: "/projects/3",
@@ -256,6 +256,7 @@ export const portfolioData = {
           "FastAPI",
           "Flask",
           "PHP",
+          "Laravel",          
           "MySQL",
           "Supabase",
           "RESTful APIs",
@@ -295,8 +296,8 @@ export const portfolioData = {
         skills: [
           "Git & GitHub",
           "VS Code",
+          "Antigravity",
           "Vercel",
-          "Streamlit",
           "Pandas & NumPy",
           "PyTorch",
           "OpenCV",
