@@ -127,32 +127,32 @@ export const portfolioData = {
   link: "/projects/3",
   color: "#0D9488",
   demoUrl: "https://wayfarer.freedev.app",
-  githubUrl: "https://github.com/DeepakDayanandan1/Wayfarer-Tourism-Management-System",
+  githubUrl: "https://github.com/DeepakDayanandan1/Wayfarer-Tourism-Management-System",  
   features: [
     {
       title: "Tour Package Management",
       description:
-        "Browse categorized travel packages with detailed itineraries, destination information, pricing, package highlights, and image galleries."
+        "Browse categorized tour packages with detailed itineraries, destination information, pricing, package highlights, and image galleries."
     },
     {
       title: "Booking & Reservation System",
       description:
-        "Allows travelers to book tour packages, select departure and return dates, submit special requests, and track booking status with cancellation options."
+        "Enables travelers to book tour packages, select departure and return dates, submit special requests, view booking history, and track reservation status with cancellation options."
     },
     {
       title: "Admin Dashboard & Analytics",
       description:
-        "Provides a centralized administrative dashboard to manage travelers, tour packages, bookings, customer inquiries, and support tickets with real-time statistics."
+        "Provides a centralized dashboard for managing travelers, tour packages, bookings, customer inquiries, and support tickets, with real-time business statistics."
     },
     {
       title: "User Authentication & Support",
       description:
-        "Includes traveler registration, login, profile management, password recovery, and an integrated support ticket system for tracking customer issues and admin responses."
+        "Includes separate traveler and administrator authentication, traveler registration, profile management, password recovery, and a support ticket system for tracking customer issues and administrative responses."
     },
     {
       title: "Content Management System",
       description:
-        "Features an admin-managed CMS for updating website pages, including About Us, Terms and Conditions, Privacy Policy, and Contact Information."
+        "Features an admin-managed CMS that allows administrators to update website content, including About Us, Terms and Conditions, Privacy Policy, and Contact pages."
     }
   ]
 },
